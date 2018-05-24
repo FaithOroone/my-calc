@@ -1,0 +1,96 @@
+/* styling for buttons */
+#submitsum{
+    background-color:#49b949; /*green*/
+    font-size: 16px;
+    width:90px;
+    border: none;
+    padding:10px 20px;
+    margin:0 auto 0;
+}
+
+#submitresultssubtraction{
+    background-color: red;
+    font-size:16px;
+    width:90px;
+    border: none;
+    padding:10px 20px;
+    margin:0 auto 0;
+}
+
+#submitMultiplicationresults{
+    background-color:#03a9f4; /* sky blue*/
+    font-size: 16px;
+    width:90px;
+    border: none;
+    padding: 10px 20px;
+    margin:0 auto 0;
+}
+
+#submitDivisionresults{
+    background-color: #ddf11f; /*yellow */
+    font-size: 16px;
+    width:90px;
+    border: none;
+    margin:0 auto 0;
+    padding: 10px 20px;
+}
+/* end of buttons styling */
+
+/*input styling*/
+input[type=number]{
+    width: 90px;
+    height: 20px;
+    padding: 10px 20px;
+    margin: 0 auto 0;
+    border: none;
+}
+/*end of input styling*/
+
+.container{
+    margin: auto;
+    padding: 0 35px;
+}
+
+#calc{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color:#9e9e9e;/* gray*/
+}
+
+#result{
+    width: 90px;
+    height: 35px;
+    padding: 10px 20px;
+    margin: 0 auto 0;
+    border: none; 
+}
+
+#result1{
+    width: 90px;
+    height: 35px;
+    padding: 10px 20px;
+    margin: 0 auto 0;
+    border: none; 
+}
+
+#result2{
+    width: 90px;
+    height: 35px;
+    padding: 10px 20px;
+    margin: 0 auto 0;
+    border: none; 
+}
+
+#result3{
+    width: 90px;
+    height: 35px;
+    padding: 10px 20px;
+    margin: 0 auto 0;
+    border: none; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}

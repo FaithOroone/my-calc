@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my calculator</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head> <!--end of head-->
+<body>
+    <div id="calc">
+    <div class="container">
+    <h1>My Calculator Application</h1>
+
+<!--Addtion-->
+    <input type="number" id="addnum1" value=""> +
+    <input type="number" id="addnum2" value=""> =
+    <button id="result">Answer</button>
+    <input type="submit" value="Add" id="submitsum"><br><br> <!--end of addtion-->
+
+<!--Subtraction-->
+    <input type="number" id="subtractnum1" value=""> -
+    <input type="number" id="subtractnum2" value=""> =
+    <button id="result1">Answer</button>
+    <input type="submit" value="Subtract" id="submitresultssubtraction"><br><br><!--end of subtraction-->
+
+<!--Multiplication-->
+    <input type="number" id="multiplynum1" value=""> *
+    <input type="number" id="multiplynum2" value=""> =
+    <button id="result2">Answer</button>
+    <input type="submit" value="Multiply" id="submitMultiplicationresults"><br><br><!--end of multiplication-->
+
+<!--Division-->    
+    <input type="number" id="dividenum1" value=""> /
+    <input type="number" id="dividenum2" value=""> =
+    <button id="result3">Answer</button>
+    <input type="submit" value="Divide" id="submitDivisionresults"><br><br><!--end of division-->
+</div>
+</div>
+
+<!--javascript-->
+<script>
+
+/* start of addtion function */
+    var Addvalue= document.querySelector("addnum1");
+    var Addvalue= document.querySelector("addnum2");
+    submitsum.addEventListener("click",resultsum);
+    function resultsum(){
+        //alert(Number(addnum1.value)+Number(addnum2.value));
+    var result = document.querySelector("#result");
+    result.innerHTML = Number(addnum1.value)+Number(addnum2.value);
+    }/*end of addtion function*/
+
+/* start of subtraction function */
+    var Subtractvalue= document.querySelector("subtractnum1");
+    var Subtractvalue= document.querySelector("subtractnum2");
+    submitresultssubtraction.addEventListener("click",subtractionresults);
+    function subtractionresults(){
+        // alert(Number(subtractnum1.value)-Number(subtractnum2.value));
+    var subtractionresult = document.querySelector("#result1");
+    result1.innerHTML = Number(subtractnum1.value)-Number(subtractnum2.value);
+    }/*end of subtraction function*/
+     
+/*beginning of multiplication function*/
+    var Multiplyvalue= document.querySelector("multiplynum1");
+    var Multiplyvalue= document.querySelector("multiplynum2");
+    submitMultiplicationresults.addEventListener("click",multiplicationvalue);
+    function multiplicationvalue(){
+       // alert(Number(multiplynum1.value)*Number(multiplynum2.value));
+    var multiplyresult = document.querySelector("#result2");
+    result2.innerHTML = Number(multiplynum1.value)*Number(multiplynum2.value);
+    }/*end of multiplication function*/
+
+/*start of division function*/
+    var Dividevalue= document.querySelector("dividenum1");
+    var Dividevalue= document.querySelector("dividenum2");
+    submitDivisionresults.addEventListener("click",Divisionvalue);
+    function Divisionvalue(){
+       // alert(Number(dividenum1.value)/Number(dividenum2.value));
+    var divisionresult = document.querySelector("#result3");
+    result3.innerHTML = Number(dividenum1.value)/Number(dividenum2.value);
+    }/*end of division function*/
+     
+</script><!--end of javascript tag-->
+
+</body><!--end of body-->
+</html><!--end of html doc-->
